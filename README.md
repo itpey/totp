@@ -1,10 +1,14 @@
 # TOTP (Time-Based One-Time Password) Generator
 
-![Go Version](https://img.shields.io/badge/Go-1.24%2B-blue)
-![Go Reference](https://pkg.go.dev/badge/github.com/itpey/totp.svg)
-![ReportCard](https://goreportcard.com/badge/github.com/itpey/totp)
-![Coverage](https://coveralls.io/repos/github/itpey/totp/badge.svg?branch=main)
-![License](https://img.shields.io/github/license/itpey/totp)
+[![Go Version][GoVer-Image]][GoDoc-Url] [![License MIT][License-Image]][License-Url] [![GoDoc][GoDoc-Image]][GoDoc-Url] [![Go Report Card][ReportCard-Image]][ReportCard-Url]
+
+[GoVer-Image]: https://img.shields.io/badge/Go-1.24%2B-blue
+[GoDoc-Url]: https://pkg.go.dev/github.com/itpey/totp
+[GoDoc-Image]: https://pkg.go.dev/badge/github.com/itpey/totp.svg
+[ReportCard-Url]: https://goreportcard.com/report/github.com/itpey/totp
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/itpey/totp?style=flat
+[License-Url]: https://github.com/itpey/totp/blob/main/LICENSE
+[License-Image]: https://img.shields.io/github/license/itpey/totp
 
 A high-performance and secure TOTP (Time-Based One-Time Password) generator and validator implemented in Go that supports multiple hashing algorithms, including SHA1, SHA256, SHA512, and BLAKE2.
 
